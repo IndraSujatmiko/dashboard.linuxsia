@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstarap</title>
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+
+    <!--CSS Custom-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!--boxicon link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="mynav">
+  <div class="container">
+    <a class="navbar-brand fw-bolder" href="https://www.linuxsia.com/"><img src="gambar/logoNav.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <!--Header-->
+<header class="py-5" id="myheader">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="my-5 text-center text-xl-start" id="headText">
+                    <h1 class="display-5 fw-bolder text-black mb-2" >Web Linux Berbahasa Indonesia</h1>
+                    <p class="lead fw-normal text-black-50 mb-4">Membahas seputar linux, mulai dari distro-distro linux, repository, hingga perintah dasar terminal linux</p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start" id="headText2">
+                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#Desc">Get Started</a>
+                        <a class="btn btn-outline-primary btn-lg px-4" href="https://www.linuxsia.com/">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="gambar/linuxHeader.jpg" alt="..." /></div>
+        </div>
+    </div>
+</header>
+  
+
+<!-- Description section-->
+<div class="py-5" id="Desc">
+  <div class="container px-5 my-5">
+      <div class="row gx-5 justify-content-center">
+          <div class="col-lg-10 col-xl-7">
+              <div class="text-center text-white" id="imgSizeDesc">
+                <h1 class="display-5 fw-bolder mb-2" >Sekilas Tentang Linux</h1>
+                  <div class="fs-6 mb-6 text-white-50">Linux, adalah sistem operasi komputer yang dibuat pada awal 1990-an oleh insinyur perangkat lunak Finlandia Linus Torvalds dan Free Software Foundation (FSF). Saat masih menjadi mahasiswa di Universitas Helsinki, Torvalds mulai mengembangkan Linux untuk membuat sistem yang mirip dengan MINIX, sistem operasi UNIX. </div><br>
+                  <div class="d-flex align-items-center justify-content-center">
+                      <img class="rounded-circle me-3" src="gambar/g98.png" alt="..." />
+                      <div class="fw-bold">
+                          Indra Sujatmiko
+                          <span class="fw-bold text-primary mx-1">/</span>
+                          Penulis, Linuxsia.com
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<hr class="white-hr">
+
+<!-- Distro Linux section-->
+<section class="py-5">
+  <div class="container px-5 my-5 text-white">
+      <div class="row gx-5">
+          <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Macam-macam Distro Linux</h2></div>
+          <div class="col-lg-8">
+              <div class="row gx-5 row-cols-1 row-cols-md-2" id="imgSize">
+                  <div class="col mb-5 h-100">
+                    <img src="gambar/Arch Linux.png" alt="arch">
+                      <h2 class="h5">Arch Linux</h2>
+                      <p class="mb-0"> distribusi Linux tujuan umum x86-64 yang dikembangkan secara independen yang berupaya menyediakan versi stabil terbaru dari sebagian besar perangkat lunak dengan mengikuti model rilis bergulir .</p>
+                  </div>
+                  <div class="col mb-5 h-100">
+                    <img src="gambar/Debian.png" alt="arch">
+                      <h2 class="h5">Debian</h2>
+                      <p class="mb-0">adalah sistem operasi komputer yang tersusun dari paket-paket perangkat lunak yang dirilis sebagai perangkat lunak bebas dan terbuka dengan lisensi mayoritas GNU General Public License dan lisensi perangkat lunak bebas lainnya.</p>
+                  </div>
+                  <div class="col mb-5 mb-md-0 h-100">
+                    <img src="gambar/Ubuntu.png" alt="arch">
+                      <h2 class="h5">Ubuntu</h2>
+                      <p class="mb-0">merupakan salah satu distribusi Linux yang berbasis Debian dan didistribusikan sebagai perangkat lunak bebas.</p>
+                  </div>
+                  <div class="col h-100">
+                    <img src="gambar/RedHat.png" alt="arch">                      
+                      <h2 class="h5">RedHat</h2>
+                      <p class="mb-0">salah satu perusahaan terbesar dan dikenal untuk dedikasinya atas perangkat lunak sumber terbuka. 
+                        Red Hat didirikan pada 1993 dan bermarkas di Raleigh, North Carolina, Amerika Serikat. Red Hat terkenal karena produknya Red Hat Linux salah satu distro Linux utama.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<hr class="white-hr">
+
+<!--Carousel-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p class="text-center text-white">Android sangat berbeda dengan sistem operasi GNU/Linux karena hanya mengandung sedikit GNU. Memang benar, satu-satunya komponen yang sama antara Android dan GNU/Linux adalah Linux, yaitu kernel. <br> "Richard Stallman"</p>
+    </div>
+    <div class="carousel-item text-white">
+      <p class="text-center">Itulah yang membuat Linux begitu bagus: Anda memasukkan sesuatu, dan upaya itu berlipat ganda. Ini adalah siklus umpan balik positif. <br>"Linus Torvalds"</p>
+    </div>
+    <div class="carousel-item text-white">
+      <p class="text-center">Linux hanya gratis jika waktu Anda tidak ada nilainya. <br>"Jamie Zawinski"</p>
+    </div>
+  </div>
+</div>
+
+<hr class="white-hr">
+
+<!-- Features section-->
+<section class="py-5" id="feautures">
+  <div class="container px-5 my-5">
+    <class class="row gx-5 justify-content-center">
+      <div class="text-white text-center">
+        <h2 class="fw-bolder">Blog</h2>
+        <p>Berikut ini saya tampilkan beberapa artikel yang ada di blog <br> <a href="https://www.linuxsia.com/">linuxsia.com</a> </p>
+      </div>
+    </class>
+    <hr class="white-hr">
+    <div class="row gx-5">
+      <div class="col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0">
+              <img class="card-img-top" src="https://1.bp.blogspot.com/-xVU6cA24U2o/YARrc1gniiI/AAAAAAAAAN0/KjhhjG7snNw-l6Ui4EZyeirR_3JHUbSOwCLcBGAsYHQ/s16000/g1430.png" alt="..." />
+              <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                  <a class="text-decoration-none link-dark stretched-link" href="https://www.linuxsia.com/2021/01/perintah-dasar-linux.html"><h5 class="card-title mb-3">30+ Perintah Dasar Linux | Beserta Contoh Penggunaanya</h5></a>
+                  <p class="card-text mb-0 text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                  <div class="d-flex align-items-end justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <img class="rounded-circle me-3" id="imgBlog" src="gambar/g98.png" alt="..." />
+                          <div class="small">
+                              <div class="fw-bold">Linuxsia</div>
+                              <div class="text-muted">October 7, 2023 &middot; 6 min read</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0">
+              <img class="card-img-top" src="https://1.bp.blogspot.com/-kNi2PBExp_I/YGX4vXIpNnI/AAAAAAAAASg/MTYeUpdoyXcDTata52AYlBklfUvWqTwiACLcBGAsYHQ/s16000/5%2BAlat%2BPenampil%2BDokumen%2BPDF%2BDi%2BLinux.png" alt="..." />
+              <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">Tutorial</div>
+                  <a class="text-decoration-none link-dark stretched-link" href="https://www.linuxsia.com/2021/04/5-alat-penampil-dokumen-pdf-di-linux.html"><h5 class="card-title mb-3">5 Alat Penampil Dokumen PDF Di Linux</h5></a>
+                  <p class="card-text mb-0 text-black-50">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                  <div class="d-flex align-items-end justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <img class="rounded-circle me-3" id="imgBlog" src="gambar/g98.png" alt="..." />                          
+                        <div class="small">
+                              <div class="fw-bold">Linuxsia</div>
+                              <div class="text-muted">October 7, 2023  &middot; 4 min read</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <div class="card h-100 shadow border-0">
+              <img class="card-img-top" src="https://1.bp.blogspot.com/-CnMvKmwYids/YDo1qMR0lkI/AAAAAAAAARM/k4k1wkwUqIons-VzDevV418VV5Fb3iv0QCLcBGAsYHQ/s16000/Debian%2B11%2BBullseye.png" alt="..." />
+              <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                  <a class="text-decoration-none link-dark stretched-link" href="https://www.linuxsia.com/2021/02/repository-lokal-indonesia-debian-11.html"><h5 class="card-title mb-3">Repository Lokal Indonesia Debian 11 Bullseye</h5></a>
+                  <p class="card-text mb-0 text-black-50">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                  <div class="d-flex align-items-end justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <img class="rounded-circle me-3" id="imgBlog" src="gambar/g98.png" alt="..." />
+                          <div class="small">
+                              <div class="fw-bold">Linuxsia</div>
+                              <div class="text-muted">October 7, 2023  &middot; 10 min read</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer-->
+<footer class="bg-dark py-4 mt-auto">
+  <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+          <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Linuxsia 2023</div></div>
+          <div class="col-auto">
+              <a class="link-light small" href="privacy.html">Privacy Policy</a>
+              <span class="text-white mx-1">&middot;</span>
+              <a class="link-light small" href="disclaimer.html">Disclaimer</a>
+              <span class="text-white mx-1">&middot;</span>
+              <a class="link-light small" href="contact.html">Contact</a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+    <!--Bootstrap JS-->
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/poopper.js"></script>
+</body>
+</html>

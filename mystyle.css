@@ -1,0 +1,40 @@
+body{
+    background: #10162f;
+    font-family: 'Space Mono', monospace;
+}
+#mynav{
+    font-family: 'Space Mono', monospace;
+}
+#myheader{
+    font-family: 'Space Mono', monospace;
+    background: #fff0e5;  
+}
+#feautures{
+    font-family: 'Space Mono', monospace;
+    background: #10162f;
+}
+.white-hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
+#tes{
+    font-family: 'Space Mono', monospace;
+    background: #10162f;
+}
+#imgSize img{
+    width: 100px;
+    height: 100px;
+    background-color: none;
+}
+#imgSizeDesc img{
+    width: 36px;
+    height: 36px;
+    background-color: none;
+}
+#imgBlog{
+    width: 36px;
+    height: 36px;
+    background-color: none;
+}
